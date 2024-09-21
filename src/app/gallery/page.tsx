@@ -1,6 +1,5 @@
 import React from 'react'
 import Gallery from './gallery'
-import Footer from '@/component/footer'
 
 export default function page() {
     return (
