@@ -1,0 +1,15 @@
+.underline-animation::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    background-color: #e4a318;
+    transition: width 0.5s ease, left 0.5s ease;
+}
+
+.underline-animation:hover::before {
+    width: 100%;
+    left: 0;
+}
