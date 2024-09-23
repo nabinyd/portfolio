@@ -31,26 +31,26 @@ export default function Skills() {
         <div className='mt-32 mb-12'>
             <h1 className='text-center text-5xl font-bold mt-8'>Skills</h1>
             <h3 className='text-center text-xl pt-3 mb-24 hover:underline underline-offset-3 font-semibold tracking-wider'>Tools and Technologies Driving My Work</h3>
-            <div className='flex justify-start items-center flex-wrap mx-auto w-3/4 gap-4 mb-32'>
+            <div className='mb-20 sm:mb-32 grid grid-cols-2  sm:grid-cols-3 md:grid-cols-5 md:w-3/4 mx-auto gap-y-4'>
                 {logos.map((logo, index) => (
                     <Skillwidget key={index} skillIcon={logo} skillName={logo.src.split('/')[logo.src.split('/').length - 1].split('-')[0]} />
                 ))}
             </div>
-            <div className='mt-36 mb-52 w-3/4 mx-auto p-2'>
-                <h1 className='text-center text-5xl font-bold mt-8'>Why hire me?</h1>
-                <p className=' text-xl my-12  hover:underline underline-offset-3 font-semibold tracking-wider text-justify'>I am a Full Stack Developer with experience in building both web and mobile applications. I specialize in Full Stack development using <strong>JavaScript, Next.js, React, and Node.js</strong>, and I&apos;m passionate about helping others succeed through technology. I work diligently to deliver high-quality, tailored solutions that align with your vision and goals. Always eager to learn and improve, I continuously seek opportunities to expand my skills and stay <span className="inline-block px-2 border border-orange-500 -rotate-3 rounded-full">
+            <div className='sm:mt-36 sm:mb-52  mx-auto p-2'>
+                <h1 className='text-center text-5xl font-bold py-4'>Why hire me?</h1>
+                <p className='text-xl my-12 sm:w-3/4 mx-auto p-2  sm:hover:underline underline-offset-3 font-semibold sm:tracking-wider text-justify'>I am a Full Stack Developer with experience in building both web and mobile applications. I specialize in Full Stack development using <strong>JavaScript, Next.js, React, and Node.js</strong>, and I&apos;m passionate about helping others succeed through technology. I work diligently to deliver high-quality, tailored solutions that align with your vision and goals. Always eager to learn and improve, I continuously seek opportunities to expand my skills and stay <span className="inline-block px-2 border border-orange-500 -rotate-3 rounded-full">
                     up-to-date
                 </span> with the latest technologies.</p>
             </div>
             <LogoSlider />
-            <div className='h-60 bg-cardbg w-full mt-32 flex items-center justify-around '>
+            <div className='h-64 bg-cardbg w-full mx-auto mt-32 flex items-center sm:justify-around justify-center sm:flex-row flex-col text-center'>
                 <div>
                     <h1 className='text-white text-4xl font-bold tracking-wider'>Have an exciting project?</h1>
-                    <h4 className='text-gray-400 tracking-widest text-lg font-semibold'>I am open to opportunities. Let&apos;s have a quick chat to see if we are a good fit.</h4>
+                    <h4 className='text-gray-400 tracking-widest text-lg font-semibold p-2'>I am open to opportunities. Let&apos;s have a quick chat to see if we are a good fit.</h4>
                 </div>
                 <div>
                     <Link href='/contact' passHref>
-                        <Button variant='default' className=' w-fit bg-buttonbg font-semibold px-6 text-lg py-6 hover:border hover:border-buttonbg'>Lets&apos;s talk</Button>
+                        <Button variant='default' className=' w-fit bg-buttonbg font-semibold px-6 text-lg py-5 hover:border hover:border-buttonbg'>Lets&apos;s talk</Button>
                     </Link>
                 </div>
             </div>

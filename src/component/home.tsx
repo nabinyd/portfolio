@@ -12,11 +12,11 @@ export default function Homepage() {
 
     return (
         <div className='w-full'>
-            <div className='w-3/5 py-16 border mx-auto text-center drop-shadow-2xl  shadow-lg shadow-violet-400'>
-                <h1 className='font-bold text-6xl'>Nabin Yadav</h1>
-                <p className='text-2xl tracking-wider'>Electronics communication and Information Engineering ||</p>
-                <p className='text-2xl'>Full stack developer</p>
-                <p className='m-7 w-3/4 mx-auto text-lg font-semibold tracking-wider'>
+            <div className='md:w-3/5 py-16 border mx-auto text-center drop-shadow-2xl  shadow-lg shadow-violet-400 px-2 w-full'>
+                <h1 className='font-bold sm:text-6xl text-4xl typed-text text-center  mx-auto'>Nabin Yadav</h1>
+                <p className='sm:text-xl font-semibold text-lg '>Electronics communication and Information Engineering ||</p>
+                <p className='sm:text-xl text-lg font-semibold'>Full stack developer</p>
+                <p className='m-7 sm:w-3/4 mx-auto text-lg sm:text-center text-justify font-semibold tracking-wider px-2'>
                     I bring ideas to life through clean code and creative solutions. With expertise in both front-end and back-end development.
                 </p>
                 <Link href='/Nabin_Yadav_Resume.pdf' passHref download='Nabin-yadav-resume'>

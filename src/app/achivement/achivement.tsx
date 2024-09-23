@@ -12,7 +12,7 @@ type AchivementProps = {
 export default function Achivement({ title, description, image }: AchivementProps) {
 
     return (
-        <div className='m-8 border border-blue-300 rounded-md p-3 text-start shadow-md shadow-blue-300 hover:shadow-lg hover:shadow-blue-400'>
+        <div className='sm:m-8 m-4 border border-blue-300 rounded-md p-3 text-start shadow-md shadow-blue-300 hover:shadow-lg hover:shadow-blue-400'>
             <Link href={image} passHref>
                 <Image
                     src={image}

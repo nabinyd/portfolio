@@ -57,7 +57,7 @@ export default function Contact() {
     }
 
     return (
-        <div className='mx-auto w-1/3 p-5 rounded-md m-5 shadow-xl drop-shadow-lg border border-blue-300 shadow-blue-300'>
+        <div className='mx-auto md:w-1/3 p-5 rounded-md md:m-5 shadow-xl drop-shadow-lg border border-blue-300 shadow-blue-300 w-full'>
 
             <form className='flex flex-col gap-y-3' onSubmit={handleSubmit}>
                 <input

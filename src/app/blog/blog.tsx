@@ -17,9 +17,9 @@ type BlogProps = {
 export default function Blog({ title, description, author, publishedOn, icon, link }: BlogProps) {
     return (
         <Link href={link} passHref target='_'>
-            <div className='w-1/2 p-4  border border-blue-700 rounded-2xl flex flex-col items-center shadow-lg shadow-blue-300 justify-center mx-auto hover:shadow-xl hover:shadow-blue-400'>
+            <div className='md:w-1/2 p-4  border border-blue-700 rounded-2xl flex flex-col items-center shadow-lg shadow-blue-300 justify-center mx-auto hover:shadow-xl hover:shadow-blue-400'>
                 <h2 className='text-3xl font-bold text-justify'>{title}</h2>
-                <p className='text-justify my-3 text-ellipsis line-clamp-3'>
+                <p className='text-justify my-3 text-ellipsis line-clamp-3 text-lg'>
                     {description}
                 </p>
                 <div className='flex justify-between items-center w-full'>

@@ -7,7 +7,7 @@ import storemanagement from '@/assets/store-management-system.png'
 
 export default function Project() {
     return (
-        <div className="w-5/6 mx-auto grid grid-cols-2">
+        <div className="sm:w-5/6 w-full mx-auto grid md:grid-cols-2 p-3">
             <Projectcard
                 title="Blackbook: A project collection platform"
                 description="Blackbook is a comprehensive archive showcasing final-year bachelor projects, hackathon creations, and standout works from academic and professional events. It serves as a hub where these projects can be shared, discovered, and appreciated by a global community. Every project, no matter the scale, holds immense value and the potential to inspire others."

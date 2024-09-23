@@ -21,10 +21,28 @@ const config: Config = {
 						transform: "translateX(-50%)"
 					}
 				},
+				typing: {
+					'from': {
+						width: '0'
+					},
+					'to': {
+						width: '100%'
+					}
+				},
+				blinkcaret: {
+					'from, to': {
+						borderRightColor: 'transparent'
+					},
+					'50%': {
+						borderRightColor: 'var(--foreground)'
+					}
+				}
 			},
 
 			animation: {
 				scroll: "scroll 15s linear infinite",
+				typing: "typing 2s steps(40, end) infinite",
+				blinkcaret: "blinkcaret 1s step-end infinite"
 			},
 
 			colors: {

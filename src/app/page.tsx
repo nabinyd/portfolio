@@ -5,7 +5,7 @@ import Footer from '@/component/footer';
 
 export default function Home() {
   return (
-    <div className='relative top-28' >
+    <div className='relative top-24' >
       <Homepage />
       <Skills />
       <Footer />
